@@ -1,0 +1,7 @@
+com\sample\rest\model\dto\JsonPlaceholderSvcQueryDTO.class
+com\sample\rest\model\dto\JsonPlaceholderSvcQueryResponseWrapperDTO.class
+com\sample\rest\model\dto\JsonPlaceholderSvcQueryResponseDTO.class
+com\sample\rest\service\impl\JsonPlaceholderSvcQueryServiceImpl.class
+com\sample\rest\InvokeJsonPlaceholderRestSvcApplication.class
+com\sample\rest\service\JsonPlaceholderSvcQueryService.class
+com\sample\rest\controller\ExternalRestSvcInvocationController.class

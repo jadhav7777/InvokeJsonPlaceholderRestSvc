@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+      - name: springbootdemo
+        imagePullPolicy: Always
+        image: acr0510.azurecr.io/springbootdemo:1.2
+        ports:
+        - containerPort: 8090
+        envFrom:
+        - configMapRef:
+            name: springboot-demo-config
+        - secretRef:
+            name: springbootdemo-secret
+      imagePullSecrets:
+      - name: myregistrykey

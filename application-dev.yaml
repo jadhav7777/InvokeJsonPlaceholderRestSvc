@@ -1,0 +1,4 @@
+demo:
+  value: 6
+  targetHost: jsonplaceholder.typicode.com
+  targetMethodRelativePath: albums

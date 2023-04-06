@@ -1,0 +1,4 @@
+demo:
+  value: ${filteridValue}
+  targetHost: ${targetHostDNS}
+  targetMethodRelativePath: ${targetMethodRelativePath}
