@@ -15,7 +15,7 @@ spec:
       containers:
       - name: springbootdemo
         imagePullPolicy: Always
-        image: acr0510.azurecr.io/springbootdemo:1.2
+        image: ${{FDDKR_IMAGE_NAME}}:${{FDDKR_IMAGE_TAG}}
         ports:
         - containerPort: 8090
         envFrom:
