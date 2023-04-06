@@ -15,7 +15,7 @@ spec:
       containers:
       - name: springbootdemo
         imagePullPolicy: Always
-        image: ${{FDDKR_IMAGE_NAME}}:${{FDDKR_IMAGE_TAG}}
+        image: ${{FDDKR_INP_IMAGE_NAME}}:${{FDDKR_INP_IMAGE_TAG}}
         ports:
         - containerPort: 8090
         envFrom:
