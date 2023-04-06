@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: springboot-demo-config
 data:
-  targetHostDNS: ${targetHostDNS}
+  targetHostDNS:  ${{targetHostDNS}}
   targetMethodRelativePath: ${targetMethodRelativePath}
