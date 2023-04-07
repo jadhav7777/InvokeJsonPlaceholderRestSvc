@@ -1,4 +1,4 @@
 demo:
   value: 6
   targetHost: ${targetHostDNS}
-  targetMethodRelativePath: albums
+  targetMethodRelativePath: ${targetMethodRelativePath}
