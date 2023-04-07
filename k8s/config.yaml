@@ -4,4 +4,4 @@ metadata:
   name: springboot-demo-config
 data:
   targetHostDNS:  ${{TARGET_HOST_DNS}}
-  targetMethodRelativePath: ${targetMethodRelativePath}
+  targetMethodRelativePath: ${{TARGET_RELATIVE_PATH}}
